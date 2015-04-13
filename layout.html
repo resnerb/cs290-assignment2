@@ -1,1 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/Users/BryanResner/cs290-assignment2/style.css">
+</head>
+<body>
 
+<!--Implementation of table found at http://www.w3schools.com/html/html_tables.asp -->
+<table border="1" style="width:100%">
+    <caption>Potential Golf Matches First Column vs Top Row (1=Win and 0=Loss)</caption>
+    <col style="width:16.7%">
+    <col style="width:16.7%">
+    <col style="width:16.7%">
+    <col style="width:16.7%">
+    <col style="width:16.6%">
+    <col style="width:16.6%">
+    <thead>
+        <tr>
+            <td></td>
+            <th>Tiger</th>
+            <th>Phil</th>
+            <th>Ernie</th>
+            <th>Rory</th>
+            <th>Jordan</th>
+        </tr>
+    </thead>
+    <col style="width:33.3%">
+    <col style="width:66.7%">
+    <tfoot>
+        <tr>
+            <td colspan="2">Footer#1</td>
+            <td colspan="4">Footer#2</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr id="r2">
+            <td id="r2c1">Tiger</td>
+            <td id="r2c2">Not Possible</td>
+            <td>Winner</td>
+            <td id="r2c4">Winner</td>
+            <td>Loser</td>
+            <td>Destroyed</td>
+        </tr>
+        <tr id="r3">
+            <td id="r3c1">Phil</td>
+            <td id="r3c2">Loser</td>
+            <td>Not Possible</td>
+            <td id="r3c4">Winner</td>
+            <td>Destroyed</td>
+            <td>Demolished</td>
+        </tr>
+        <tr id="r4">
+            <td id="r4c1">Ernie</td>
+            <td id="r4c2">Loser</td>
+            <td>Bigger Loser</td>
+            <td id="r4c4">Not Possible</td>
+            <td>Wrecked</td>
+            <td>Obliviated</td>
+        </tr>
+        <tr id="r5">
+            <td id="r5c1">Rory</td>
+            <td id="r5c2">Winner</td>
+            <td>Winner</td>
+            <td id="r5c4">Big Winner</td>
+            <td>Not Possible</td>
+            <td>Loser</td>
+        </tr>
+        <tr id="r6">
+            <td id="r6c1">Jordan</td>
+            <td id="r6c2">Winner</td>
+            <td>Big Winner</td>
+            <td id="r6c4">Huge Winner</td>
+            <td>Greek God</td>
+            <td>Not Possible</td>
+        </tr>
+    </tbody>
+</table>
+
+<dl>
+    <dt id="t1">Harry Potter</dt>
+    <dd id="d1">The Chosen One</dd>
+    <dt id="t2">Ron Weasley</dt>
+    <dd id="d2">The Best Friend</dd>
+    <dt id="t3">Draco Malfoy</dt>
+    <dd id="d3">The Evil One</dd>
+</dl>
+
+<!--Implementation of fieldset at http://www.w3schools.com/tags/tag_fieldset.asp -->
+<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
+    <fieldset>
+        <legend>Some GET Data</legend>
+        <fieldset>
+            Text here:<br>
+            <input type="text" name="text_input">
+        </fieldset>
+        <br>
+        <fieldset>
+            Number here:<br>
+            <input type="number" name="numerical_input">
+        </fieldset>
+        <br>
+        <fieldset>
+            Password here:<br>
+            <input type="password" name="password_input">
+        </fieldset>
+        <br>
+        <fieldset>
+            Select between:<br>
+                <input type="radio" name="candy" value="Snickers">
+                Snickers<br>
+                <input type="radio" name="candy" value="Skittles">
+                Skittles<br>
+                <input type="radio" name="candy" value="Mentos">
+                Mentos<br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </fieldset>
+    <br><br>
+</form>
+
+<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
+    <fieldset>
+        <legend>Some POST Data</legend>
+        <fieldset>
+            Text here:<br>
+            <input type="text" name="text_input">
+        </fieldset>
+        <br>
+        <fieldset>
+            Number here:<br>
+            <input type="number" name="numerical_input">
+        </fieldset>
+        <br>
+        <fieldset>
+            Password here:<br>
+            <input type="password" name="password_input">
+        </fieldset>
+        <br>
+        <fieldset>
+            Select between:<br>
+                <input type="radio" name="candy" value="Snickers">
+                Snickers<br>
+                <input type="radio" name="candy" value="Skittles">
+                Skittles<br>
+                <input type="radio" name="candy" value="Mentos">
+                Mentos<br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </fieldset>
+    <br><br>
+</form>
+
+<div class="outer-content">
+    <div class="inner-content">
+        <p>This is some content.</p>
+    </div>
+</div>
+
+<p><img width="100" height="125" align="left">October arrived, spreading a damp chill over the grounds and into the castle. Madam Pomfrey, the nurse, was kept busy by a sudden spate of colds among the staff and students. Her Pepperup potion worked instantly, though it left the drinker smoking at the ears for several hours afterward. Ginny Weasley, who had been looking pale, was bullied into taking some by Percy. The steam pouring from under her vivid hair gave the impression that her whole head was on fire. Raindrops the size of bullets thundered on the castle windows for days on end; the lake rose, the flower beds turned into muddy streams, and Hagrid's pumpkins swelled to the size of garden sheds. Oliver Wood's enthusiasm for regular training sessions, however, was not dampened, which was why Harry was to be found, late one stormy Saturday afternoon a few days before Halloween, returning to Gryffindor Tower, drenched to the skin and splattered with mud. Even aside from the rain and wind it hadn't been a happy practice session. Fred and George, who had been spying on the Slytherin team, had seen for themselves the speed of those new Nimbus Two Thousand and Ones. They reported that the Slytherin team was no more than seven greenish blurs, shooting through the air like missiles.As Harry squelched along the deserted corridor he came across somebody who looked just as preoccupied as he was. Nearly Headless Nick, the ghost of Gryffindor Tower, was staring morosely out of a window, muttering under his breath, ". . . don't fulfill their requirements . . . half an inch, if that . . ."<br><br>"Hello, Nick," said Harry. "Hello, hello," said Nearly Headless Nick, starting and looking round. He wore a dashing, plumed hat on his long curly hair, and a tunic with a ruff, which concealed the fact that his neck was almost completely severed. He was pale as smoke, and Harry could see right through him to the dark sky and torrential rain outside."You look troubled, young Potter," said Nick, folding a transparent letter as he spoke and tucking it inside his doublet. "So do you," said Harry. "Ah," Nearly Headless Nick waved an elegant hand, "a matter of no importance. . . . It's not as though I really wanted to join. . . . Thought I'd apply, but apparently I 'don't fulfill requirements' -" In spite of his airy tone, there was a look of great bitterness on his face. "But you would think, wouldn't you," he erupted suddenly, pulling the letter back out of his pocket, "that getting hit forty-five times in the neck with a blunt axe would qualify you to join the Headless Hunt?" "Oh - yes," said Harry, who was obviously supposed to agree. "I mean, nobody wishes more than I do that it had all been quick and clean, and my head had come off properly, I mean, it would have saved me a great deal of pain and ridicule. However -" Nearly Headless Nick shook his letter open and read furiously: "'We can only accept huntsmen whose heads have parted company with their bodies. You will appreciate that it would be impossible otherwise for members to participate in hunt activities such as Horseback Head-Juggling and Head Polo. It is with the greatest regret, therefore, that I must inform you that you do not fulfill our requirements. With very best wishes, Sir Patrick Delaney-Podmore.'" Fuming, Nearly Headless Nick stuffed the letter away.
+</p>
+
+
+</body>
+</html>
